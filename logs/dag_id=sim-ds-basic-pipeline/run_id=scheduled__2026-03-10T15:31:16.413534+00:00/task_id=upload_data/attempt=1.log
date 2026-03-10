@@ -1,0 +1,10 @@
+{"timestamp":"2026-03-10T15:31:17.202766Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-10T15:31:17.203441Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/delivery-scoring.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-10T15:31:17.274498Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-10T15:31:17.274634Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-10T15:31:17.274773Z","level":"info","event":"Current task name:upload_data","logger":"task.stdout"}
+{"timestamp":"2026-03-10T15:31:17.274851Z","level":"info","event":"Dag name:sim-ds-basic-pipeline","logger":"task.stdout"}
+{"timestamp":"2026-03-10T15:31:17.277231Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-10T15:31:17.308316Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-10T15:31:17.308444Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-10T15:31:17.308638Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): upload_data>","logger":"task.stdout"}
