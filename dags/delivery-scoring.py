@@ -90,9 +90,9 @@ def data_pipeline():
         df.drop(cat_cols, axis=1, inplace=True)
         df.drop(target, axis=1, inplace=True)
         df  = df[columns]
-        output_path = DATA_PATH / 'input'
+        output_path = DATA_PATH / 'output'
         output_path.mkdir(exist_ok=True)
-        df.to_csv(DATA_PATH / 'output' / 'processed.csv')
+        df.to_csv(output_path / 'processed.csv')
     
     @task.virtualenv(
         task_id="virtualenv_python", requirements=["catboost==1.2.10", "joblib==1.5.3"], system_site_packages=False
