@@ -5,7 +5,7 @@ alembic==1.18.4
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.12.1
-apache-airflow==3.1.7
+apache-airflow==3.3.1
 apache-airflow-core==3.1.7
 apache-airflow-providers-common-compat==1.14.0
 apache-airflow-providers-common-io==1.7.1
