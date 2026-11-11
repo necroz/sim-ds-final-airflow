@@ -102,7 +102,7 @@ packaging==26.0
 pandas==2.3.3
 pathspec==1.0.4
 pendulum==3.2.0
-pillow==12.1.1
+pillow==13.0.0
 plotly==6.6.0
 pluggy==1.6.0
 prettytable==3.17.0
